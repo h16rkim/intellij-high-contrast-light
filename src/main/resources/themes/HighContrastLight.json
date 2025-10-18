@@ -1,0 +1,37 @@
+{
+  "name": "High Contrast Light",
+  "dark": false,
+  "author": "h16rkim",
+  "baseTheme": "IntelliJ Light",
+  "editorScheme": "/themes/HighContrastLightEditor.xml",
+  "colors": {
+    "Borders": "#000000",
+    "Component.borderColor": "#000000",
+    "Panel.borderColor": "#000000",
+    "Table.borderColor": "#000000",
+    "Popup.borderColor": "#000000",
+    "Selection.background": "#0000FF",
+    "Selection.foreground": "#FFFFFF",
+
+    "Tree.selectionBackground": "#0000FF",
+    "Tree.selectionForeground": "#FFFFFF",
+
+    "List.selectionBackground": "#0000FF",
+    "List.selectionInactiveBackground": "#0000FF",
+    "List.selectionForeground": "#FFFFFF",
+
+    "Table.selectionBackground": "#0000FF",
+    "Table.selectionForeground": "#FFFFFF",
+
+    "TextField.selectionBackground": "#0000FF",
+    "TextField.selectionForeground": "#FFFFFF"
+  },
+  "ui": {
+    "Tree": { "selectionBackground": "#0000FF", "selectionForeground": "#FFFFFF" },
+    "List": { "selectionBackground": "#0000FF", "selectionForeground": "#FFFFFF" },
+    "Table": { "selectionBackground": "#0000FF", "selectionForeground": "#FFFFFF" },
+    "*": {
+      "borderColor": "#000000"
+    }
+  }
+}

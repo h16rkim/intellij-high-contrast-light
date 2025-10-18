@@ -9,7 +9,6 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.h16rkim.intellijhighcontrastlight.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.h16rkim.intellijhighcontrastlight.startup.MyProjectActivity" />
+        <themeProvider id="HighContrastLight" path="/themes/HighContrastLight.json"/>
     </extensions>
 </idea-plugin>

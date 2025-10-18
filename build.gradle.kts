@@ -134,6 +134,10 @@ tasks {
     publishPlugin {
         dependsOn(patchChangelog)
     }
+
+    test {
+        failOnNoDiscoveredTests = false
+    }
 }
 
 intellijPlatformTesting {
