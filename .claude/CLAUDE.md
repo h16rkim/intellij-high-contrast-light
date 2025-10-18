@@ -176,7 +176,7 @@ src/main/resources/themes/
 ./gradlew build
 ```
 
-생성 위치: `/build/libs/intellij-high-contrast-light-0.0.1.jar`
+생성 위치: `/build/libs/intellij-high-contrast-light-1.0.1.jar`
 
 ### 로컬 테스트
 1. IntelliJ IDEA 실행
@@ -194,7 +194,7 @@ src/main/resources/themes/
 1. `plugin.xml`에 `<themeProvider id="HighContrastLight" path="/themes/HighContrastLight.json"/>` 올바르게 등록되었는지 확인
 2. 테마 파일이 JAR에 포함되었는지 확인:
    ```bash
-   unzip -l build/libs/intellij-high-contrast-light-0.0.1.jar | grep theme
+   unzip -l build/libs/intellij-high-contrast-light-1.0.1.jar | grep theme
    ```
 3. 파일 경로 확인:
    - `themes/HighContrastLight.json` 존재 확인

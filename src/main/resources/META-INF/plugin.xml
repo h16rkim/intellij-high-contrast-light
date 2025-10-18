@@ -6,8 +6,6 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="HighContrastLight" path="/themes/HighContrastLight.json"/>
     </extensions>
