@@ -10,26 +10,26 @@
     "Panel.borderColor": "#000000",
     "Table.borderColor": "#000000",
     "Popup.borderColor": "#000000",
-    "Selection.background": "#0000FF",
+    "Selection.background": "#183FD5",
     "Selection.foreground": "#FFFFFF",
 
-    "Tree.selectionBackground": "#0000FF",
+    "Tree.selectionBackground": "#183FD5",
     "Tree.selectionForeground": "#FFFFFF",
 
-    "List.selectionBackground": "#0000FF",
-    "List.selectionInactiveBackground": "#0000FF",
+    "List.selectionBackground": "#183FD5",
+    "List.selectionInactiveBackground": "#183FD5",
     "List.selectionForeground": "#FFFFFF",
 
-    "Table.selectionBackground": "#0000FF",
+    "Table.selectionBackground": "#183FD5",
     "Table.selectionForeground": "#FFFFFF",
 
-    "TextField.selectionBackground": "#0000FF",
+    "TextField.selectionBackground": "#183FD5",
     "TextField.selectionForeground": "#FFFFFF"
   },
   "ui": {
-    "Tree": { "selectionBackground": "#0000FF", "selectionForeground": "#FFFFFF" },
-    "List": { "selectionBackground": "#0000FF", "selectionForeground": "#FFFFFF" },
-    "Table": { "selectionBackground": "#0000FF", "selectionForeground": "#FFFFFF" },
+    "Tree": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
+    "List": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
+    "Table": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
     "*": {
       "borderColor": "#000000"
     }

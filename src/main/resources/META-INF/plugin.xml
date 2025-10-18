@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.h16rkim.intellijhighcontrastlight</id>
-    <name>intellij-high-contrast-light</name>
+    <name>High Contrast Light Theme</name>
     <vendor>h16rkim</vendor>
 
     <depends>com.intellij.modules.platform</depends>
