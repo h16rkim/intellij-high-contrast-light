@@ -2,7 +2,6 @@
   "name": "High Contrast Light",
   "dark": false,
   "author": "h16rkim",
-  "baseTheme": "IntelliJ Light",
   "editorScheme": "/themes/HighContrastLightEditor.xml",
   "colors": {
     "Borders": "#000000",
@@ -30,6 +29,9 @@
     "Tree": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
     "List": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
     "Table": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
+    "Menu": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
+    "MenuItem": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
+    "PopupMenu": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
     "*": {
       "borderColor": "#000000"
     }
