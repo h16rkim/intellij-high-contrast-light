@@ -4,10 +4,10 @@
 
 ## [Unreleased]
 
-## [1.0.2] - 2025-10-26
+## [1.0.3] - 2025-10-26
 ### Changed
 - Updated theme customizations with enhanced editor color scheme
-- Bumped plugin version to 1.0.2
+- Bumped plugin version to 1.0.3
 - Expanded HighContrastLightEditor.xml with comprehensive syntax highlighting colors
 
 ## [Unreleased]
