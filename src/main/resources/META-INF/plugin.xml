@@ -8,5 +8,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="HighContrastLight" path="/themes/HighContrastLight.json"/>
+        <themeProvider id="HighContrastIslandsLight" path="/themes/HighContrastIslandsLight.json"/>
     </extensions>
 </idea-plugin>
