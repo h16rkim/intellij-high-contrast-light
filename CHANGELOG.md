@@ -13,3 +13,8 @@
 ## [1.0.4] - 2025-11-28
 ### Changed
 - Added High Contrast Islands Light Theme
+
+## [1.0.5] - 2026-01-11
+### Changed
+- Apply high contrast colors to buttons and borders
+

@@ -32,7 +32,44 @@
     "Menu": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
     "MenuItem": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
     "PopupMenu": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
+    "Window": {
+      "border": "1,1,1,1,#000000"
+    },
+    "EditorTabs": {
+      "selectedForeground": "#000000",
+      "selectedBackground": "#FFFFFF",
+      "inactiveMaskColor": "#000000FF",
+      "underlineColor": "#000000",
+      "underlineHeight": 1,
+      "underlinedTabBackground": "#FFFFFF",
+      "inactiveColoredFileBackground": "#FFFFFF"
+    },
+    "Button": {
+      "startBackground": "#FFFFFF",
+      "endBackground": "#FFFFFF",
+      "startBorderColor": "#000000",
+      "endBorderColor": "#000000",
+      "default": {
+        "foreground": "#000000",
+        "startBackground": "#FFFFFF",
+        "endBackground": "#FFFFFF",
+        "startBorderColor": "#000000",
+        "endBorderColor": "#000000",
+        "focusedBorderColor": "#000000"
+      }
+    },
+    "SegmentedButton": {
+      "selectedStartBorderColor": "#000000",
+      "selectedEndBorderColor": "#000000"
+    },
+    "Borders": {
+      "color": "#000000",
+      "ContrastBorderColor": "#000000"
+    },
     "*": {
+      "focusedBorderColor": "#000000",
+      "hoverBorderColor": "#000000",
+      "pressedBorderColor": "#000000",
       "borderColor": "#000000"
     }
   }
