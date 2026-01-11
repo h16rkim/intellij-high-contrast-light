@@ -18,3 +18,7 @@
 ### Changed
 - Apply high contrast colors to buttons and borders
 
+## [1.0.6] - 2026-01-11
+### Changed
+- Apply background color on Editor Tabs
+

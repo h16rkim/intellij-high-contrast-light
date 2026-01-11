@@ -36,12 +36,9 @@
       "border": "1,1,1,1,#000000"
     },
     "EditorTabs": {
-      "selectedForeground": "#000000",
-      "selectedBackground": "#FFFFFF",
       "inactiveMaskColor": "#000000FF",
       "underlineColor": "#000000",
       "underlineHeight": 1,
-      "underlinedTabBackground": "#FFFFFF",
       "inactiveColoredFileBackground": "#FFFFFF"
     },
     "Button": {
