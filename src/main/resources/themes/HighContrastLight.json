@@ -38,8 +38,7 @@
     "EditorTabs": {
       "inactiveMaskColor": "#000000FF",
       "underlineColor": "#000000",
-      "underlineHeight": 1,
-      "inactiveColoredFileBackground": "#FFFFFF"
+      "underlineHeight": 1
     },
     "Button": {
       "startBackground": "#FFFFFF",

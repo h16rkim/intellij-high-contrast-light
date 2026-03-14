@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+## [1.0.7] - 2026-03-14
+### Changed
+- Remove inactiveColoredFileBackground from Editor Tabs settings
+
 ## [1.0.3] - 2025-10-26
 ### Changed
 - Updated theme customizations with enhanced editor color scheme
