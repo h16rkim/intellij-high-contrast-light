@@ -26,6 +26,6 @@
 ### Changed
 - Apply background color on Editor Tabs
 
-## [1.0.7] - 2026-01-12
+## [1.0.8] - 2026-03-14
 ### Changed
 - Changed selected foreground for visibility
