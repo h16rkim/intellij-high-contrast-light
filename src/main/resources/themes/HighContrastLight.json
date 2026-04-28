@@ -54,10 +54,6 @@
         "focusedBorderColor": "#000000"
       }
     },
-    "ActionButton": {
-      "hoverBackground": "#FFFFFF",
-      "pressedBackground": "#FFFFFF"
-    },
     "SegmentedButton": {
       "selectedStartBorderColor": "#000000",
       "selectedEndBorderColor": "#000000"
@@ -65,6 +61,9 @@
     "Borders": {
       "color": "#000000",
       "ContrastBorderColor": "#000000"
+    },
+    "Notification": {
+      "iconHoverBackground": "#00000000"
     },
     "*": {
       "focusedBorderColor": "#000000",
