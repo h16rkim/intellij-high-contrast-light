@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+## [1.1.2] - 2026-04-30
+### Changed
+- Tab underline 색상을 파란색(#183FD5)으로 변경 (EditorTabs, DefaultTabs)
+- ToolWindow 버튼 선택 색상 및 HeaderTab underline 색상 추가
+- WelcomeScreen 선택 배경/테두리 색상 및 구분선 색상 추가
+- Component focusWidth를 1로 설정
+
 ## [1.0.7] - 2026-03-14
 ### Changed
 - Remove inactiveColoredFileBackground from Editor Tabs settings

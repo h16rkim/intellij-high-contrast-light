@@ -42,8 +42,13 @@
     },
     "EditorTabs": {
       "inactiveMaskColor": "#000000FF",
-      "underlineColor": "#000000",
+      "underlineColor": "#183FD5",
+      "inactiveUnderlineColor": "#183FD5",
       "underlineHeight": 1
+    },
+    "DefaultTabs": {
+      "underlineColor": "#183FD5",
+      "inactiveUnderlineColor": "#183FD5"
     },
     "ActionButton": {
       "hoverBackground": "#FFFFFF",
@@ -69,9 +74,28 @@
       "selectedStartBorderColor": "#000000",
       "selectedEndBorderColor": "#000000"
     },
+    "Component": {
+      "focusWidth": 1
+    },
     "Borders": {
       "color": "#000000",
       "ContrastBorderColor": "#000000"
+    },
+    "ToolWindow": {
+      "Button": {
+        "selectedBackground": "#183FD5",
+        "selectedForeground": "#FFFFFF"
+      },
+      "HeaderTab": {
+        "underlineColor": "#183FD5",
+        "inactiveUnderlineColor": "#183FD5"
+      }
+    },
+    "WelcomeScreen": {
+      "Projects.actions.selectionBackground": "#183FD5",
+      "Projects.actions.selectionBorderColor": "#183FD5",
+      "Projects.selectionInactiveBackground": "#183FD5",
+      "separatorColor": "#000000"
     },
     "*": {
       "focusColor": "#183FD5",

@@ -19,7 +19,9 @@
 ```
 src/main/resources/themes/
 ├── HighContrastLight.json          # 테마 설정 (UI 컴포넌트 색상)
-└── HighContrastLightEditor.xml     # 에디터 색상 스키마 (문법 강조)
+├── HighContrastIslandsLight.json   # Islands Light 테마 설정
+├── HighContrastLightEditor.xml     # 에디터 색상 스키마 (문법 강조)
+└── theme.example.json              # 테마 JSON 스키마 참고용 예시 (IntelliJ Light 테마)
 ```
 
 ### 핵심 파일 설명
@@ -108,64 +110,37 @@ src/main/resources/themes/
 
 ### 테마 수정 방법
 
-테마는 **baseTheme: "IntelliJ Light"**를 상속받기 때문에, 필요한 부분만 오버라이드하면 됩니다.
+테마는 기본 Light 테마를 상속받기 때문에, 필요한 부분만 오버라이드하면 됩니다.
 
-1. **전역 색상 수정**: `HighContrastLight.json`의 `colors` 섹션 수정
-   ```json
-   "colors": {
-     "Borders": "#000000",           // 모든 테두리
-     "Selection.background": "#0000FF",
-     "Selection.foreground": "#FFFFFF"
-   }
-   ```
+**사용 가능한 JSON 스키마 속성은 `src/main/resources/themes/theme.example.json`을 참조하세요.**
+이 파일은 IntelliJ Light 테마의 전체 설정으로, 어떤 컴포넌트에 어떤 속성을 설정할 수 있는지 확인할 수 있습니다.
 
-2. **특정 컴포넌트 수정**: `HighContrastLight.json`의 `ui` 섹션 수정
-   ```json
-   "ui": {
-     "Tree": { "selectionBackground": "#0000FF" },
-     "List": { "selectionBackground": "#0000FF" },
-     "*": { "borderColor": "#000000" }  // 모든 컴포넌트에 적용
-   }
-   ```
+1. **UI 컴포넌트 색상 수정**: `HighContrastLight.json` 및 `HighContrastIslandsLight.json`의 `ui` 섹션 수정
+   - `theme.example.json`에서 원하는 컴포넌트의 속성명과 위계를 확인한 후 오버라이드
+   - 예: `EditorTabs`, `ToolWindow.HeaderTab`, `WelcomeScreen` 등
 
-3. **에디터 색상 수정**: `HighContrastLightEditor.xml`의 `colors` 섹션 수정
+2. **에디터 색상 수정**: `HighContrastLightEditor.xml`의 `colors`/`attributes` 섹션 수정
    - Default 에디터 스키마를 상속받으므로 필요한 색상만 오버라이드
 
-4. **빌드 및 테스트**:
+3. **빌드 및 테스트**:
    ```bash
    ./gradlew clean build
    ```
 
 ### 색상 추가/수정 시 주의사항
 
-- **16진수 색상 형식**: `#RRGGBB` 형식 사용 (예: `#000000`, `#0000FF`)
-- **전역 설정 우선**: `colors` 섹션의 설정이 `ui` 섹션보다 먼저 적용됨
+- **16진수 색상 형식**: `#RRGGBB` 형식 사용 (예: `#000000`, `#183FD5`)
+- **ui 섹션의 위계 구조**: `colors` 섹션에 플랫 키(`WelcomeScreen.Projects.xxx`)로 넣으면 인식되지 않을 수 있음. `ui` 섹션에 중첩 객체로 올바른 위계에 설정해야 함
+  ```json
+  // ❌ colors 에 플랫 키 — 동작하지 않을 수 있음
+  "colors": { "WelcomeScreen.Projects.selectionBackground": "#183FD5" }
+
+  // ✅ ui 에 중첩 객체 — 올바른 방법
+  "ui": { "WelcomeScreen": { "Projects.actions.selectionBackground": "#183FD5" } }
+  ```
 - **와일드카드 사용**: `"*"` 키를 사용하면 모든 컴포넌트에 일괄 적용
 - **IDE 캐시 삭제**: 색상 변경 후 IntelliJ `Invalidate Caches / Restart` 실행
-
-### 새로운 색상 추가 방법
-
-`HighContrastLight.json`의 `colors` 섹션에 추가:
-
-```json
-"colors": {
-  "Borders": "#000000",
-  "NewColor.property": "#XXXXXX",
-  "Component.newProperty": "#XXXXXX"
-}
-```
-
-또는 `ui` 섹션에 추가:
-
-```json
-"ui": {
-  "NewComponent": {
-    "borderColor": "#000000",
-    "background": "#FFFFFF",
-    "foreground": "#000000"
-  }
-}
-```
+- **속성명 확인**: 새로운 컴포넌트 속성을 추가할 때는 반드시 `theme.example.json`에서 정확한 속성명과 위계를 확인
 
 ---
 
