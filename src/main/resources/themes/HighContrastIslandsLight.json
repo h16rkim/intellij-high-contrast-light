@@ -32,7 +32,11 @@
     "Table": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
     "Menu": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
     "MenuItem": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
-    "PopupMenu": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
+    "PopupMenu": {
+      "selectionBackground": "#183FD5",
+      "selectionForeground": "#FFFFFF",
+      "borderWidth": 1
+    },
     "Window": {
       "border": "1,1,1,1,#000000"
     },
@@ -40,6 +44,12 @@
       "inactiveMaskColor": "#000000FF",
       "underlineColor": "#000000",
       "underlineHeight": 1
+    },
+    "ActionButton": {
+      "hoverBackground": "#FFFFFF",
+      "hoverBorderColor": "#000000",
+      "pressedBackground": "#FFFFFF",
+      "pressedBorderColor": "#000000"
     },
     "Button": {
       "startBackground": "#FFFFFF",
@@ -64,9 +74,11 @@
       "ContrastBorderColor": "#000000"
     },
     "*": {
+      "focusColor": "#183FD5",
       "focusedBorderColor": "#000000",
       "hoverBorderColor": "#000000",
       "pressedBorderColor": "#000000",
+      "disabledBorderColor": "#000000",
       "borderColor": "#000000"
     }
   }
