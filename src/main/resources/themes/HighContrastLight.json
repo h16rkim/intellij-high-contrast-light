@@ -93,13 +93,18 @@
         "inactiveUnderlineColor": "#183FD5"
       }
     },
-    "WelcomeScreen": {
-      "Projects.selectionForeground": "#FFFFFF"
+    "Table": {
+      "lightSelectionBackground": "#EFEFEF",
+      "lightSelectionInactiveBackground": "#EFEFEF"
+    },
+    "Plugins": {
+      "selectionForeground": "#FFFFFF",
+      "lightSelectionForeground": "#FFFFFF",
+      "hoverBackground": "#183FD5",
+      "lightSelectionBackground": "#183FD5",
+      "lightSelectionInactiveBackground": "#183FD5"
     },
     "*": {
-      "lightSelectionBackground": "#183FD5",
-      "lightSelectionForeground": "#FFFFFF",
-      "selectionForeground": "#FFFFFF",
       "focusColor": "#183FD5",
       "focusedBorderColor": "#000000",
       "hoverBorderColor": "#000000",

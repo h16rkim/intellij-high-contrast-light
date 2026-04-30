@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+## [1.1.3] - 2026-04-30
+### Changed
+- Plugins 화면에서 선택된 플러그인의 텍스트 색상을 흰색(#FFFFFF)으로 변경
+- Plugins 화면의 hover 배경색 및 선택 배경색을 파란색(#183FD5)으로 설정
+- Table lightSelection 배경색 설정 추가
+- lightSelectionInactiveBackground/Foreground 설정 추가
+
 ## [1.1.2] - 2026-04-30
 ### Changed
 - Tab underline 색상을 파란색(#183FD5)으로 변경 (EditorTabs, DefaultTabs)
