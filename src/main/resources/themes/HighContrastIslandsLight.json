@@ -5,36 +5,42 @@
   "parentTheme": "Islands Light",
   "editorScheme": "/themes/HighContrastLightEditor.xml",
   "colors": {
-    "Borders": "#000000",
-    "Component.borderColor": "#000000",
-    "Panel.borderColor": "#000000",
-    "Table.borderColor": "#000000",
-    "Popup.borderColor": "#000000",
-    "Selection.background": "#183FD5",
-    "Selection.foreground": "#FFFFFF",
+    "highContrastBlack": "#000000",
+    "highContrastBlue": "#183FD5",
+    "highContrastWhite": "#FFFFFF",
+    "highContrastGray": "#EFEFEF",
+    "highContrastYellow": "#FFA511",
 
-    "Tree.selectionBackground": "#183FD5",
-    "Tree.selectionForeground": "#FFFFFF",
+    "Borders": "highContrastBlack",
+    "Component.borderColor": "highContrastBlack",
+    "Panel.borderColor": "highContrastBlack",
+    "Table.borderColor": "highContrastBlack",
+    "Popup.borderColor": "highContrastBlack",
+    "Selection.background": "highContrastBlue",
+    "Selection.foreground": "highContrastWhite",
 
-    "List.selectionBackground": "#183FD5",
-    "List.selectionInactiveBackground": "#183FD5",
-    "List.selectionForeground": "#FFFFFF",
+    "Tree.selectionBackground": "highContrastBlue",
+    "Tree.selectionForeground": "highContrastWhite",
 
-    "Table.selectionBackground": "#183FD5",
-    "Table.selectionForeground": "#FFFFFF",
+    "List.selectionBackground": "highContrastBlue",
+    "List.selectionInactiveBackground": "highContrastBlue",
+    "List.selectionForeground": "highContrastWhite",
 
-    "TextField.selectionBackground": "#183FD5",
-    "TextField.selectionForeground": "#FFFFFF"
+    "Table.selectionBackground": "highContrastBlue",
+    "Table.selectionForeground": "highContrastWhite",
+
+    "TextField.selectionBackground": "highContrastBlue",
+    "TextField.selectionForeground": "highContrastWhite"
   },
   "ui": {
-    "Tree": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
-    "List": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
-    "Table": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
-    "Menu": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
-    "MenuItem": { "selectionBackground": "#183FD5", "selectionForeground": "#FFFFFF" },
+    "Tree": { "selectionBackground": "highContrastBlue", "selectionForeground": "highContrastWhite" },
+    "List": { "selectionBackground": "highContrastBlue", "selectionForeground": "highContrastWhite" },
+    "Table": { "selectionBackground": "highContrastBlue", "selectionForeground": "highContrastWhite" },
+    "Menu": { "selectionBackground": "highContrastBlue", "selectionForeground": "highContrastWhite" },
+    "MenuItem": { "selectionBackground": "highContrastBlue", "selectionForeground": "highContrastWhite" },
     "PopupMenu": {
-      "selectionBackground": "#183FD5",
-      "selectionForeground": "#FFFFFF",
+      "selectionBackground": "highContrastBlue",
+      "selectionForeground": "highContrastWhite",
       "borderWidth": 1
     },
     "Window": {
@@ -42,87 +48,89 @@
     },
     "EditorTabs": {
       "inactiveMaskColor": "#000000FF",
-      "underlineColor": "#183FD5",
-      "inactiveUnderlineColor": "#183FD5",
+      "underlineColor": "highContrastBlue",
+      "inactiveUnderlineColor": "highContrastBlue",
       "underlineHeight": 1
     },
     "DefaultTabs": {
-      "underlineColor": "#183FD5",
-      "inactiveUnderlineColor": "#183FD5"
+      "underlineColor": "highContrastBlue",
+      "inactiveUnderlineColor": "highContrastBlue"
     },
     "ActionButton": {
-      "hoverBackground": "#FFFFFF",
-      "hoverBorderColor": "#000000",
-      "pressedBackground": "#FFFFFF",
-      "pressedBorderColor": "#000000"
+      "hoverBackground": "highContrastWhite",
+      "hoverBorderColor": "highContrastBlack",
+      "pressedBackground": "highContrastWhite",
+      "pressedBorderColor": "highContrastBlack"
     },
     "Button": {
-      "startBackground": "#FFFFFF",
-      "endBackground": "#FFFFFF",
-      "startBorderColor": "#000000",
-      "endBorderColor": "#000000",
+      "startBackground": "highContrastWhite",
+      "endBackground": "highContrastWhite",
+      "startBorderColor": "highContrastBlack",
+      "endBorderColor": "highContrastBlack",
       "default": {
-        "foreground": "#000000",
-        "startBackground": "#FFFFFF",
-        "endBackground": "#FFFFFF",
-        "startBorderColor": "#000000",
-        "endBorderColor": "#000000",
-        "focusedBorderColor": "#000000"
+        "foreground": "highContrastBlack",
+        "startBackground": "highContrastWhite",
+        "endBackground": "highContrastWhite",
+        "startBorderColor": "highContrastBlack",
+        "endBorderColor": "highContrastBlack",
+        "focusedBorderColor": "highContrastBlack"
       }
     },
     "SegmentedButton": {
-      "selectedStartBorderColor": "#000000",
-      "selectedEndBorderColor": "#000000"
+      "selectedStartBorderColor": "highContrastBlack",
+      "selectedEndBorderColor": "highContrastBlack"
     },
     "Component": {
       "focusWidth": 1
     },
     "Borders": {
-      "color": "#000000",
-      "ContrastBorderColor": "#000000"
+      "color": "highContrastBlack",
+      "ContrastBorderColor": "highContrastBlack"
     },
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "#183FD5",
-        "selectedForeground": "#FFFFFF"
+        "selectedBackground": "highContrastBlue",
+        "selectedForeground": "highContrastWhite"
       },
       "HeaderTab": {
-        "underlineColor": "#183FD5",
-        "inactiveUnderlineColor": "#183FD5"
+        "underlineColor": "highContrastBlue",
+        "inactiveUnderlineColor": "highContrastBlue"
       }
     },
     "Table": {
-      "lightSelectionBackground": "#EFEFEF",
-      "lightSelectionInactiveBackground": "#EFEFEF"
+      "lightSelectionForeground": "highContrastWhite",
+      "lightSelectionInactiveForeground": "highContrastWhite",
+      "lightSelectionBackground": "highContrastGray",
+      "lightSelectionInactiveBackground": "highContrastGray"
     },
     "VersionControl": {
-      "Log.Commit.selectionBackground": "#183FD5",
-      "Log.Commit.selectionInactiveBackground": "#183FD5",
-      "Log.Commit.selectionForeground": "#FFFFFF",
-      "Log.Commit.selectionInactiveForeground": "#FFFFFF",
-      "Log.Commit.Reference.foreground": "#FFA511"
+      "Log.Commit.selectionBackground": "highContrastBlue",
+      "Log.Commit.selectionInactiveBackground": "highContrastBlue",
+      "Log.Commit.selectionForeground": "highContrastWhite",
+      "Log.Commit.selectionInactiveForeground": "highContrastWhite",
+      "Log.Commit.Reference.foreground": "highContrastYellow"
     },
     "Plugins": {
-      "selectionForeground": "#FFFFFF",
-      "lightSelectionForeground": "#FFFFFF",
-      "hoverBackground": "#183FD5",
-      "lightSelectionBackground": "#183FD5",
-      "lightSelectionInactiveBackground": "#183FD5"
+      "selectionForeground": "highContrastWhite",
+      "lightSelectionForeground": "highContrastWhite",
+      "hoverBackground": "highContrastBlue",
+      "lightSelectionBackground": "highContrastBlue",
+      "lightSelectionInactiveBackground": "highContrastBlue"
     },
     "*": {
-      "selectionForeground": "#FFFFFF",
-      "focusColor": "#183FD5",
-      "focusedBorderColor": "#000000",
-      "hoverBorderColor": "#000000",
-      "pressedBorderColor": "#000000",
-      "disabledBorderColor": "#000000"
+      "selectionForeground": "highContrastWhite",
+      "focusColor": "highContrastBlue",
+      "focusedBorderColor": "highContrastBlack",
+      "hoverBorderColor": "highContrastBlack",
+      "pressedBorderColor": "highContrastBlack",
+      "disabledBorderColor": "highContrastBlack"
     }
   },
   "icons": {
     "ColorPalette": {
-      "Checkbox.Border.Default": "#000000",
-      "Checkbox.Background.Selected": "#183FD5",
-      "Checkbox.Border.Selected": "#000000"
+      "Checkbox.Border.Default": "highContrastBlack",
+      "Checkbox.Background.Selected": "highContrastBlue",
+      "Checkbox.Border.Selected": "highContrastBlack"
     }
   }
 }
