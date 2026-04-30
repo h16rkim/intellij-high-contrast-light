@@ -92,18 +92,24 @@
       }
     },
     "WelcomeScreen": {
-      "Projects.actions.selectionBackground": "#183FD5",
-      "Projects.actions.selectionBorderColor": "#183FD5",
-      "Projects.selectionInactiveBackground": "#183FD5",
-      "separatorColor": "#000000"
+      "Projects.selectionForeground": "#FFFFFF"
     },
     "*": {
+      "lightSelectionBackground": "#183FD5",
+      "lightSelectionForeground": "#FFFFFF",
+      "selectionForeground": "#FFFFFF",
       "focusColor": "#183FD5",
       "focusedBorderColor": "#000000",
       "hoverBorderColor": "#000000",
       "pressedBorderColor": "#000000",
-      "disabledBorderColor": "#000000",
-      "borderColor": "#000000"
+      "disabledBorderColor": "#000000"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Border.Default": "#000000",
+      "Checkbox.Background.Selected": "#183FD5",
+      "Checkbox.Border.Selected": "#000000"
     }
   }
 }
