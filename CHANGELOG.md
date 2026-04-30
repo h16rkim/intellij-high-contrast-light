@@ -4,19 +4,27 @@
 
 ## [Unreleased]
 
+## [1.1.4] - 2026-05-01
+### Added
+- Add VCS Git Log commit selection colors (selection/inactive selection background and foreground)
+- Set VCS Git Log reference (branch/tag) foreground color to orange (#FFA511)
+
+### Changed
+- Refactor all hardcoded hex color codes to color variables (highContrastBlack, highContrastBlue, highContrastWhite, highContrastGray, highContrastYellow) for better maintainability
+
 ## [1.1.3] - 2026-04-30
 ### Changed
-- Plugins 화면에서 선택된 플러그인의 텍스트 색상을 흰색(#FFFFFF)으로 변경
-- Plugins 화면의 hover 배경색 및 선택 배경색을 파란색(#183FD5)으로 설정
-- Table lightSelection 배경색 설정 추가
-- lightSelectionInactiveBackground/Foreground 설정 추가
+- Change selected plugin text color to white (#FFFFFF) in Plugins screen
+- Set hover background and selection background to blue (#183FD5) in Plugins screen
+- Add Table lightSelection background color settings
+- Add lightSelectionInactiveBackground/Foreground settings
 
 ## [1.1.2] - 2026-04-30
 ### Changed
-- Tab underline 색상을 파란색(#183FD5)으로 변경 (EditorTabs, DefaultTabs)
-- ToolWindow 버튼 선택 색상 및 HeaderTab underline 색상 추가
-- WelcomeScreen 선택 배경/테두리 색상 및 구분선 색상 추가
-- Component focusWidth를 1로 설정
+- Change Tab underline color to blue (#183FD5) for EditorTabs and DefaultTabs
+- Add ToolWindow button selection color and HeaderTab underline color
+- Add WelcomeScreen selection background/border color and separator color
+- Set Component focusWidth to 1
 
 ## [1.0.7] - 2026-03-14
 ### Changed
