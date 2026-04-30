@@ -97,6 +97,13 @@
       "lightSelectionBackground": "#EFEFEF",
       "lightSelectionInactiveBackground": "#EFEFEF"
     },
+    "VersionControl": {
+      "Log.Commit.selectionBackground": "#183FD5",
+      "Log.Commit.selectionInactiveBackground": "#183FD5",
+      "Log.Commit.selectionForeground": "#FFFFFF",
+      "Log.Commit.selectionInactiveForeground": "#FFFFFF",
+      "Log.Commit.Reference.foreground": "#FFA511"
+    },
     "Plugins": {
       "selectionForeground": "#FFFFFF",
       "lightSelectionForeground": "#FFFFFF",

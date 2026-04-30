@@ -198,6 +198,23 @@ src/main/resources/themes/
 
 ---
 
+## 테마 키 조사 팁
+
+특정 UI 컴포넌트에 어떤 테마 키를 사용해야 하는지 모를 때, `gh` CLI로 [jetbrains/intellij-community](https://github.com/jetbrains/intellij-community) 레포지토리의 소스 코드를 검색하면 정확한 키를 찾을 수 있습니다.
+
+```bash
+# 예: VCS Log 관련 색상 키 검색
+gh search code "JBColor.namedColor" --repo jetbrains/intellij-community --filename "*.java" -L 20 | grep -i "VersionControl"
+
+# 예: 특정 키워드로 테마 메타데이터 검색
+gh search code "Log.Commit.selection" --repo jetbrains/intellij-community -L 20
+```
+
+- `JBColor.namedColor("키이름", fallback)` 패턴으로 정의된 코드를 찾으면 테마 JSON에서 사용할 수 있는 정확한 키를 알 수 있음
+- `platform/platform-resources/src/themes/metadata/IntelliJPlatform.themeMetadata.json` 파일에 공식 테마 키 목록이 정리되어 있음
+
+---
+
 ## 관련 문서
 
 - [IntelliJ Platform 테마 개발 문서](https://plugins.jetbrains.com/docs/intellij/themes-intro.html)
